@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS        OFF)
 
 set(STB_TARGETS "stb_image;stb_image_write;stb_image_resize;stb_perlin;stb_truetype")
-set(STB_FILES "stb_image.h;stb_image_write.h;stb_image_resize.h;stb_perlin.h;stb_truetype.h")
+set(STB_FILES "stb_image.h;stb_image_write.h;stb_image_resize2.h;stb_perlin.h;stb_truetype.h")
 set(STB_DEFINES "STB_IMAGE_IMPLEMENTATION;STB_IMAGE_WRITE_IMPLEMENTATION;STB_IMAGE_RESIZE_IMPLEMENTATION;STB_PERLIN_IMPLEMENTATION;STB_TRUETYPE_IMPLEMENTATION")
 list(LENGTH STB_TARGETS STB_COUNT)
 math(EXPR STB_COUNT "${STB_COUNT} - 1")
